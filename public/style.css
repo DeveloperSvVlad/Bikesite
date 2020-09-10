@@ -172,8 +172,9 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     background-color: #4d4959;
-    padding: 150px 0px 0px 0px;
+    padding: 180px 0px 0px 0px;
     transform: translateY(-100%);
+    overflow: auto;
   }
   .menu__body.active {
     transition: all 1.5s ease 0s;
@@ -191,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 0px 45px 0px;
   }
   .menu__list li:last-child {
-    padding: 0;
+    padding: 0 0 20px 0;
   }
   .menu__link {
     color: #fff;
